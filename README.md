@@ -1,8 +1,7 @@
-# Goj'o's Bibliographic Information File
+# Goj'o's Bibliographic Information File 
+<img src="/logo.png" width="150"/> 
 
-Simple repo to use GBIF literature API to append "relevance" to the list of literature citing GBIF.
-
-![Gojo wearing an eye mask with Dazzingly Original Ideas (DOI).](/logo.png){width="20%"}
+Simple repo to use GBIF literature API to append "relevance" to the list of literature citing GBIF. 
 
 ## Repository structure
 
