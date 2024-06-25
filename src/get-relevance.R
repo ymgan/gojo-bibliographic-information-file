@@ -55,5 +55,8 @@ lit_relevance <- literature %>% mutate(relevance = data)
 current_date <- format(Sys.Date(), "%Y-%m-%d")
 
 out_file <- paste0(current_date, "_gbif-literature-with-relevance", ".txt")
+out_file_csv <- paste0(current_date, "_gbif-literature-with-relevance", ".csv")
 
 write_tsv(lit_relevance, here("files", out_file), na = "")
+write_csv(lit_relevance, here("files", out_file_csv), na = "", quote = "all")
+
